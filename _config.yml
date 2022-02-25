@@ -42,8 +42,8 @@ logo:                  /assets/img/cbi/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Byoungil Choi
+  email:               cocobo2369@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 

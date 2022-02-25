@@ -2,36 +2,33 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Byoungil Choi
+  email:             cocobo2369@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
+    생각만으로 그치지않고 행동으로 생각을 실현하는 개발자가 되려고 합니다.^^
+    Ilustrated by kim jungyoun
 
   # This photo will be used in the about section
   picture:
-    path:            https://placehold.it/128x128
+    path:            /assets/img/cbi/author.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+      1x:            /assets/img/cbi/author.png
+      2x:            /assets/img/cbi/author.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    # twitter:         <username>
+    github:          cocobo2369
+    email:           cocobo2369@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
-    # google:          <number>
+    google:          cocobo2369
     # vk:              <username>
     # youtube:         <string_string_string>
     # vimeo:           <username>
