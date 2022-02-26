@@ -51,6 +51,11 @@ author:
 menu:
   - title:             Python
     url:               /python/
+    submenu:
+      - title:          GUI
+        url:            /gui/
+      - title:          Grammer
+        url:            /grammer/
   - title:             Thinking
     url:               /thinking/
   - title:             About
