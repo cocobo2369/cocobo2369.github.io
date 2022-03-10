@@ -178,3 +178,7 @@
   position:relative;
   top:1px;
 }
+
+a::after{
+  display: none !important;
+}
