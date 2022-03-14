@@ -98,6 +98,23 @@
   color: rgb(100,3,200) !important;
 }
 
+.markdown-body{
+  kbd {
+    font-size: 15px;
+    font-family: monospace;
+    color: #555;
+    background-color: #fcfcfc;
+    border: solid 1px;
+    border-radius: 3px;
+    border-bottom-color: #bbb;
+    padding: 3px 5px;
+  }
+
+  mark {
+    padding: 3px 5px;
+    background-color: #FF9c94;
+  }
+}
 //button
 .page-control {
   height: 100%;
