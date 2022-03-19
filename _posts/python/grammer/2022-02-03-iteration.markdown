@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "python 반복문"
+title:  "반복문"
 date:   2022-02-03 09:28:00 +0900
 categories: 
   - python

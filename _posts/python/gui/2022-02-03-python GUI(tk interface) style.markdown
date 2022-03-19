@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "python GUI(tk interface)스타일 변경"
+title:  "GUI(tk interface)스타일 변경"
 date:   2022-02-06 15:08:00 +0900
 categories: 
   - python
-  - grammer
+  - gui
 mNumber: 4
 ---
 

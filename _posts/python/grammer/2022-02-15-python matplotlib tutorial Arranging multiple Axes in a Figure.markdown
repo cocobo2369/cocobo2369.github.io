@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "python matplotlib tutorial Arranging multiple Axes in a Figure"
+title:  "matplotlib tutorial Arranging multiple Axes in a Figure"
 date:   2022-02-15 21:00:00 +0900
 categories: 
   - python

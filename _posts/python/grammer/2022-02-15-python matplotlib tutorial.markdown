@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "python matplotlib tutorial"
+title:  "matplotlib tutorial"
 date:   2022-02-15 21:00:00 +0900
 categories: 
   - python

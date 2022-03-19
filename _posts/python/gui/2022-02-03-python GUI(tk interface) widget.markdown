@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "python GUI(tk interface)기타 위젯"
+title:  "GUI(tk interface)기타 위젯"
 date:   2022-02-06 17:08:00 +0900
 categories: 
   - python
-  - grammer
+  - gui
 mNumber: 5
 ---
 

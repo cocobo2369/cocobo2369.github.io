@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "python 파일 읽기와 쓰기"
+title:  "파일 읽기와 쓰기"
 date:   2022-02-03 14:51:00 +0900
 categories: 
   - python
