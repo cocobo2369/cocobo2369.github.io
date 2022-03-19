@@ -49,6 +49,11 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Git
+    url:               /git/
+    submenu:
+      - title:          Page
+        url:            /page/
   - title:             Python
     url:               /python/
     submenu:
