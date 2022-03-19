@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "python 반복문응용"
+date:   2022-02-03 09:29:00 +0900
+categories: 
+  - python
+  - grammer
+mNumber: 1
+---
+* toc
+{:toc .large-only}
+
+### {{page.mNumber}}.1 역순으로 for문 돌기
+
+
+#### {{page.mNumber}}.1.1 항목접근
+```python
+for <<variable>> in reversed(<<list>>):
+    <<code block>>
+```
+
+```python
+for item in reversed([1,2,3,4]):
+    print(item)
+#4 3 2 1
+```
+
+#### {{page.mNumber}}.1.2 인덱스 접근
+```python
+for <<variable>> in reversed(range(len(<<list>>))):
+    <<code block>>
+
+for <<variable>> in range(len(<<list>>)-1, -1,-1):
+    <<code block>>
+```
+
+```python
+list=[1,2,3,4]
+for idx in reversed(range(len(list))) :
+    print(list[idx])
+#4 3 2 1
+
+for idx in range(len(list)-1,-1,-1):
+    print(list[idx])
+#4 3 2 1
+```
+
+### {{page.mNumber}}.2 반복 중 특정 인덱스를 시작점으로 중첩 반복
+```python
+for <<idx>> in range(<<variable>>) :
+    for <<nestedIdx>> in range(<<idx>>,<<variable>>):
+        <<code block>>
+```
+
+```python
+for idx in range(3):
+    for nestedIdx in range(idx,3):
+        print(idx,nestedIdx)
+    print()
+```
+<img src="/assets/img/python/grammer/python iteration2 01.nested specific index.PNG" width="300px" height="200px"/>
