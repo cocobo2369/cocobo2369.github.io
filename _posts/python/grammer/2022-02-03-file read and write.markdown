@@ -79,9 +79,9 @@ with open('test.txt','r') as file :
     file.read() #file curser 의 현재위치는 6이므로 6부터 끝까지 읽게됨
 ```
 read() : 파일 내용 전체를 하나의 문자열로 읽음
-<br/> <img src="/assets/img/python/grammer/python 파일 읽기와 쓰기01.read.PNG" >
+<br/> <img src="/assets/img/python/grammer/python file read and write01.read.PNG" >
 <br/> read(n) : 파일 내용 중 문자열을 정수 n만큼만 읽음
-<br/> <img src="/assets/img/python/grammer/python 파일 읽기와 쓰기02.readn.PNG" >
+<br/> <img src="/assets/img/python/grammer/python file read and write02.readn.PNG" >
 
 #### {{page.mNumber}}.2.2 readlines()
 >
@@ -93,7 +93,7 @@ with open('test.txt','r') as file:
 newline '\n' 도 그대로 남겨 어떠한 문자열도 제거하지 않음
 예제의 마지막 문자열은 '\n'이 없는데 이는 파일에 쓸 때 '\n'을 표시하지 않았기 때문
 추 후 파일 관리 시 마지막 문자열에도 '\n'을 추가하여 파일의 모든 문자열들이 '\n'으로 끝나게하면 이를 이용할 수도 있음
-<br/><img src="/assets/img/python/grammer/python 파일 읽기와 쓰기03.readlines.PNG" >
+<br/><img src="/assets/img/python/grammer/python file read and write03.readlines.PNG" >
 
 #### {{page.mNumber}}.2.3 for line in file
 >
@@ -104,7 +104,7 @@ with open('test.txt','r') as file:
 ```
 readlines() 는 file을 newline 마다 문자열을 구분하여 list 객체로 반환하는 반면
 file 객체 자체에 반복문으로 접근하여 문자열을 반환할 수 도 있다.
-<br/><img src="/assets/img/python/grammer/python 파일 읽기와 쓰기04.forlineinfile.PNG" >
+<br/><img src="/assets/img/python/grammer/python file read and write04.forlineinfile.PNG" >
 
 #### {{page.mNumber}}.2.4 readline
 >
@@ -119,8 +119,8 @@ with open('test.txt','r') as file:
 readline() 은 file의 newline으로 구분되는 한 줄을 문자열로 반환한다.
 <br/> readline() 함수를 호출할 때마다 file cursor는 다음 줄 맨 앞으로 이동한다.
 <br/> print시 문자열 안에 '\n'이 있을 수 있으므로 '\n'이나 공백등을 제거하고싶을 때 strip() 함수를 이용한다.
-<br/><img src="/assets/img/python/grammer/python 파일 읽기와 쓰기05.readline.PNG" >
- <img src="/assets/img/python/grammer/python 파일 읽기와 쓰기06.readlinestrip.PNG" >
+<br/><img src="/assets/img/python/grammer/python file read and write05.readline.PNG" >
+ <img src="/assets/img/python/grammer/python file read and write06.readlinestrip.PNG" >
 
 #### {{page.mNumber}}.2.5 url 읽기
 >
