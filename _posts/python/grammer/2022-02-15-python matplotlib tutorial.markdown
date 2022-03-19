@@ -55,7 +55,7 @@ fig, axs = plt.subplots(2, 2)  # a figure with a 2x2 grid of Axes
 
 ### Coding style
 
-<img src='/assets/img/python/grammer/matplotlib/oopvspyplot.PNG'>
+<img src='/assets/img/python/grammer/matplotlib/oopvspyplot.png'>
 
 #### OO style
 
