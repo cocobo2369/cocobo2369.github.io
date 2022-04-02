@@ -54,6 +54,11 @@ menu:
     submenu:
       - title:          Page
         url:            /page/
+  - title:             C++
+    url:               /cpp/
+    submenu:
+      - title:         Grammer
+        url:           /grammerCpp/
   - title:             Python
     url:               /python/
     submenu:
